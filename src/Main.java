@@ -6,7 +6,7 @@ public class Main {
     static boolean DEBUG=false;
     
     public static void debug(String m) {
-        if(this.DEBUG)
+        if(DEBUG)
             System.out.printf("[Debug] %s\n", m); 
     }
     
